@@ -6,7 +6,7 @@ const client = new MistralClient(apiKey);
 
 const input = [];
 for (let i = 0; i < 1; i++) {
-  input.push('What is the best French cheese?');
+  input.push('What is the best French embeddings.js?');
 }
 
 const embeddingsBatchResponse = await client.embeddings({

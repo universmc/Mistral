@@ -1,0 +1,12 @@
+const myCustomTask = {
+    id: 'my_custom_task',
+    description: 'Description of my custom task',
+    implementation: async function (context) {
+    // Your custom code goes here
+    console.log('Executing my custom task');
+    // Example: Add a custom field to the context
+    context.customData = { message: 'Hello from my custom task' };
+  },
+};
+
+module.exports = myCustomTask;
